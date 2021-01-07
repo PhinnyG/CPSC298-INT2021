@@ -22,7 +22,7 @@ int main() {
    cin >> cerealWeightOz;
    cout << endl;
 
-   //ensures a valid input
+   //ensures an input greater than 0
    while(cerealWeightOz <= 0) {
       cout << "Please enter a value greater than 0: ";
       cin >> cerealWeightTons;
