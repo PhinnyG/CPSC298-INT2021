@@ -27,6 +27,8 @@ void userInput() {
       cout << "Please enter a value greater than 0: ";
       cin >> cerealWeightOz;
    }
+
+   cout << endl;
 }
 
 //formats and prints the output
