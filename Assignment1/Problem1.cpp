@@ -31,7 +31,7 @@ void userInput() {
    cout << endl;
 }
 
-//formats and prints the output
+//formats and prints the output to console
 void output() {
    cout << "The cereal weighs " << cerealWeightTons << " metric tons." << endl;
    cout << "You would need " << ceil(numToMakeTon(cerealWeightOz)) << " (" << numToMakeTon(cerealWeightOz);
