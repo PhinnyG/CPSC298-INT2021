@@ -22,16 +22,12 @@ int main() {
     return 0;
 }
 
-//checks to see if the room is full or not and computes the distance from the capacity
+//checks to see if the room is full or not
 bool isOverFull(int roomCap, int numPeople) {
-    if (roomCap >= numPeople) {
- //       distanceFromCap = roomCap - numPeople;
+    if (roomCap >= numPeople)
         return false;
-    }
-    else {
-     //   distanceFromCap = numPeople - roomCap;
+    else
         return true;
-    }
 }
 
 //handles the user input
