@@ -46,8 +46,9 @@ void userInput() {
 
 //formats and prints the output to console
 void output() {
+    double toMakeTon = numToMakeTon(cerealWeightOz);
     cout << "The cereal weighs " << cerealWeightTons << " metric tons." << endl;
-    cout << "You would need " << ceil(numToMakeTon(cerealWeightOz)) << " (" << numToMakeTon(cerealWeightOz);
+    cout << "You would need " << ceil(toMakeTon) << " (" << toMakeTon;
     cout << " to be exact) boxes to have one metric ton of cereal!" << endl;
     cout << endl;
 }

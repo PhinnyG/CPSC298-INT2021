@@ -32,8 +32,7 @@ bool isOverFull(int roomCap, int numPeople) {
 
 //handles the user input
 void input() {
-    cout << endl;
-    cout << "Please enter the maximum room capacity: ";
+    cout << endl << "Please enter the maximum room capacity: ";
     cin >> maxRoomCap;
     posCheck(&maxRoomCap);
     cout << "Please enter the number of people attending: ";
