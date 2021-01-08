@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
@@ -15,6 +16,7 @@ int main() {
 
     input();
     bool fullCheck = isOverFull(maxRoomCap, attendees);
+    distanceFromCap = fabs(maxRoomCap - attendees);
     output(fullCheck, distanceFromCap);
 
     return 0;
@@ -23,11 +25,11 @@ int main() {
 //checks to see if the room is full or not and computes the distance from the capacity
 bool isOverFull(int roomCap, int numPeople) {
     if (roomCap >= numPeople) {
-        distanceFromCap = roomCap - numPeople;
+ //       distanceFromCap = roomCap - numPeople;
         return false;
     }
     else {
-        distanceFromCap = numPeople - roomCap;
+     //   distanceFromCap = numPeople - roomCap;
         return true;
     }
 }
