@@ -5,6 +5,18 @@ using namespace std;
 const double METRIC_TON_IN_OZ = 35273.92;
 double cerealWeightOz;
 double cerealWeightTons;
+double ouncesToTons(double ounces);
+double numToMakeTon(double ounces);
+void userInput();
+void output();
+
+int main() {
+   userInput();
+   cerealWeightTons = ouncesToTons(cerealWeightOz);
+   output();
+
+   return 0;
+}
 
 //method to convert ounces to metric tons
 double ouncesToTons(double ounces) {
@@ -39,11 +51,5 @@ void output() {
    cout << endl;
 }
 
-int main() {
-   userInput();
-   cerealWeightTons = ouncesToTons(cerealWeightOz);
-   output();
 
-   return 0;
-}
 
