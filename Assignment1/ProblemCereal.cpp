@@ -1,3 +1,7 @@
+//Name:     Finn White
+//Program:  ProblemCereal.cpp
+//Class:    CPSC298
+
 #include <iostream>
 #include <cmath>
 

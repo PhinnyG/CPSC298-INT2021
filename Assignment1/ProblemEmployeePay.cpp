@@ -1,3 +1,7 @@
+//Name:     Finn White
+//Program:  ProblemEmployeePay.cpp
+//Class:    CPSC298
+
 #include <iostream>
 #include <iomanip>
 

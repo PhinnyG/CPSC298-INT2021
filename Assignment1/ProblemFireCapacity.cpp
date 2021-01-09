@@ -1,3 +1,7 @@
+//Name:     Finn White
+//Program:  ProblemFireCapacity.cpp
+//Class:    CPSC298
+
 #include <iostream>
 #include <string>
 #include <cmath>
